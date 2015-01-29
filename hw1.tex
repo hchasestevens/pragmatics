@@ -97,9 +97,22 @@ and
 \neg (p \rightarrow q) \equiv p \wedge \neg q
 \]
 
-\item \textbf{Proposition b. entails a.}
+\item \textbf{Proposition b. entails a.}, as demonstrated by contraposition:
+\begin{quote}
+It's not the case that someone cheated on the exam.\\
+$\therefore$\\
+It's not the case that John cheated on the exam.
+\end{quote}
 
-\item \textbf{Proposition a. presupposes b.}
+\item \textbf{Proposition a. presupposes b.}. This can be clearly demonstrated by using the negation test: in
+\begin{quote}
+It's not the case that if John realizes that Mary is in New York, he will get angry.
+\end{quote}
+, proposition \textbf{b.} survives. Alternatively, this can also be demonstrated using the denial test, by contrasting the following responses to \textbf{a.}:
+\begin{quote}
+No, John won't get angry.\\
+\# No, Mary isn't in New York.
+\end{quote}
 \end{enumerate}
 
 
@@ -110,8 +123,98 @@ and
 \begin{enumerate}
 
 \item 
+\begin{enumerate}
+\item Baldness exists.
+\item Heredity exists.
+\item France exists.
+\item The king of France exists.
+\end{enumerate}
+All of the above are projected presuppositions, as demonstrated by the following denial examples:
+\begin{quote}
+\# No, there isn't such a thing as baldness.\\
+\# No, there isn't such a thing as heredity.\\
+\# No, France isn't a place.\\
+\# No, there is no king of France.
+\end{quote}
+
+\item
+The presuppositions from the former subclause are as follows:
+\begin{enumerate}
+\item France exists.
+\end{enumerate}
+The presuppositions from the latter are:
+\begin{enumerate}
+\item France exists.
+\item The king of France exists.
+\item Baldness exists.
+\end{enumerate}
+Of the presuppositions in both the former and latter subclauses, only ii. from the latter is not projected - a reasonable response might take a form along the lines of
+\begin{quote}
+I don't think there is a king of France.
+\end{quote}
+without, in my evaluation, derailing the discourse.
+
+\item
+\begin{enumerate}
+\item ``I" (the speaker) exist.\footnote{Admittedly, a bit of a given.}
+\item ``You" (the listener) exist.
+\item Pragmatics exists.
+\item ``You" are going to Pragmatics.
+\end{enumerate}
+Of these, presuppositions iii. and iv., which stem from the subclause ``stop going to Pragmatics.", are projected into the larger utterance, as evidenced through the denial test:
+\begin{quote}
+\# No, Pragmatics isn't being offered.\\
+\# No, I don't go to Pragmatics.
+\end{quote}
+
+\item
+From the former subclause:
+\begin{enumerate}
+\item John exists.
+\item Breakfast exists.
+\end{enumerate}
+From the latter subclause:
+\begin{enumerate}
+\item ``He" (John) exists.
+\item Breakfast exists, as linked to from the former subclause.
+\item Donuts exist.
+\item John, at least one point, ate donuts for breakfast.
+\end{enumerate}
+Only iv. from the latter subclause is not projected, and can be readily accessed in a response by the listener:
+\begin{quote}
+I don't think John did ever eat donuts, no.
+\end{quote} 
+
+\item
+From the former subclause:
+\begin{enumerate}
+\item John exists.
+\item John exercises.\footnote{This, arguably, could instead be a case of implicature: ``Yes, you could say John is exercising more - he didn't exercise in the first place".}
+\end{enumerate}
+From the latter:
+\begin{enumerate}
+\item ``He" (John) exists.
+\item Donuts exist.
+\item Breakfast exists.
+\item John, at least at one, point ate donuts for breakfast.
+\end{enumerate}
+In this instance, all presuppositions are projected.
 
 \end{enumerate}
+Of the above, only \textbf{b.} and \textbf{d.} are examples where a presupposition from a subclause is prevented from being projected to the utterance as a whole. In both cases, a logical structure similar to 
+\[
+\neg P \oplus (P \wedge Q)
+\]
+is employed. This is to say, \textbf{d.} might be plausibly formulated in first-order logic as
+\[
+\neg eaten(John, donuts) \oplus (eaten(John, donuts) \wedge \neg eats(John, donuts))
+\],
+and \textbf{b.}'s logical form might resemble
+\[
+\neg (\exists x. king(x, France)) \oplus (\exists x. king(x, France) \wedge bald(x))
+\]
+In both instances, an initial ``out" is supplied in the initial subclause, which allows the listener to select the negation of a presupposition from the latter subclause.
+
 \end{enumerate}
 
 
